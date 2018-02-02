@@ -1,0 +1,30 @@
+#content {
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+label, input {
+	display: inline-block;
+	vertical-align: top;
+	height: 25px;
+	margin-bottom: 6px;
+}
+
+label {
+	width: 100px;
+}
+
+input[type="submit"] {
+	margin-left: 105px;
+	width: 100px;
+}
+
+.cit_fav {
+	background: black;
+	color: white;
+	padding: 20px;
+}
