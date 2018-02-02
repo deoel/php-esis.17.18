@@ -1,12 +1,12 @@
 <?php
-	require_once('demarrer_session.php');
+	require_once('../controller/demarrer_session.php');
 ?>
 <!doctype html>
 <html> 
     <head> 
         <title>Home</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="static/css/style.css" />
+        <link rel="stylesheet" href="../static/css/style.css" />
     </head>
     <body>
         <div id="content"> 

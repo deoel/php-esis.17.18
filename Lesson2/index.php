@@ -13,7 +13,7 @@
 				Avant toute aventure sur notre site, veuillez nous donner vos coordonnées svp
 				au cas où nous aimerions vous contacter. Merci.
 			<p/>
-			<form method="post" action="check_coords.php">
+			<form method="post" action="controller/check_coords.php">
 				<label>Pseudo: </label>
 				<input type="text" name="pseudo" /><br />
 				<label>Téléphone: </label>

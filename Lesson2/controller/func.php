@@ -10,7 +10,7 @@
 			echo '
 				<p>
 					<strong>'.$auteur.': </strong>
-					'.$citation.' <br/><a href="like.php?id='.$k.'">[Like]</a>
+					'.$citation.' <br/><a href="../controller/like.php?id='.$k.'">[Like]</a>
 				</p>
 			';
 		}
