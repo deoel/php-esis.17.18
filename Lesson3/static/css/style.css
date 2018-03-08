@@ -1,0 +1,40 @@
+#content {
+    width: 900px;
+    margin: auto;
+}
+
+h1, ul {
+    text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin: 10px;
+}
+
+label, input {
+	display: block;
+	vertical-align: top;
+	height: 25px;
+	margin-bottom: 6px;
+}
+
+label {
+	width: 100px;
+}
+
+input[type="submit"] {
+	width: 100px;
+}
+
+input[name="pseudo"] {
+	width: 600px;
+}
+
+textarea {
+	max-width: 600px;
+	min-width: 600px;
+	max-height: 100px;
+	min-height: 100px;
+}
+
