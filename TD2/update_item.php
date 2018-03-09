@@ -10,8 +10,9 @@
 		
 		$connexion = getConnexion();
 		
-		$req = "UPDATE item  SET nomplat = :nomplat, description = :description, 
-				categorie = :categorie, prix = :prix, devise = :devise WHERE id = :id";
+		$req = "UPDATE item  SET nomplat = :nomplat, 
+				description = :description, categorie = :categorie, 
+				prix = :prix, devise = :devise WHERE id = :id";
 		$prepare = $connexion->prepare($req);
 		
 		$prepare->execute(array(

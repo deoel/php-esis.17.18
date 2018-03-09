@@ -9,6 +9,9 @@
 	echo '
 		<table>
 			<tr>
+				<th colspan="6">MENU</th>
+			</tr>
+			<tr>
 				<th>N°</th>
 				<th>NOM PLAT</th>
 				<th>DESCRIPTION</th>
