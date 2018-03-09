@@ -1,0 +1,48 @@
+#content {
+    width: 900px;
+    margin: auto;
+}
+
+h1, ul {
+    text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin: 10px;
+}
+
+label, input, select {
+	display: block;
+	vertical-align: top;
+	height: 25px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+label {
+	width: 100px;
+}
+
+input[type="submit"] {
+	width: 100px;
+}
+
+input,select {
+	width: 600px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	border: 1px solid #999;
+}
+th{
+	border: 1px solid #999;
+	height: 30px;
+}
+td{
+	border: 1px dashed #999;
+	height: 30px;
+}
