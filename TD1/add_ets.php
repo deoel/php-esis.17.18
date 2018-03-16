@@ -7,7 +7,7 @@
 		
 		$connexion = new PDO('mysql:host=localhost;dbname=annuaire_ets', 'root', '');
 		
-		$req = "INSERT INTO etablissement  VALUES(null, :nom, :adresse, :description, :telephone)";
+		$req = "INSERT INTO etab  VALUES(null, :nom, :adresse, :description, :telephone)";
 		$prepare = $connexion->prepare($req);
 		
 		$prepare->execute(array(

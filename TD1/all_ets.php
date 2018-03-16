@@ -2,7 +2,7 @@
 	require_once('etablissement.class.php');
 	
 	$connexion = new PDO('mysql:host=localhost;dbname=annuaire_ets', 'root', '');
-	$req = "SELECT * FROM etablissement";
+	$req = "SELECT * FROM etab";
 	
 	$data = $connexion->query($req);
 	
